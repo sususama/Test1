@@ -1,45 +1,22 @@
-package edu;
+package Collections;
 
-import java.io.Serializable;
-import java.util.Objects;
+public class Student /*implements Comparable*/{
+    private int code;
+    private  String name;
+    private char sex;
 
-public class Student implements Serializable {
-    private int id;
-    private String name;
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Student student = (Student) o;
-        return id == student.id &&
-                Objects.equals(name, student.name);
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(id, name);
-    }
-
-    public Student(int id, String name) {
-        this.id = id;
+    public Student(int code, String name, char sex) {
+        this.code = code;
         this.name = name;
+        this.sex = sex;
     }
 
-    @Override
-    public String toString() {
-        return "Student{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                '}';
+    public int getCode() {
+        return code;
     }
 
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
+    public void setCode(int code) {
+        this.code = code;
     }
 
     public String getName() {
@@ -49,4 +26,30 @@ public class Student implements Serializable {
     public void setName(String name) {
         this.name = name;
     }
+
+    public char getSex() {
+        return sex;
+    }
+
+    public void setSex(char sex) {
+        this.sex = sex;
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "code=" + code +
+                ", name='" + name + '\'' +
+                ", sex=" + sex +
+                '}';
+    }
+
+//    @Override
+//    public int compareTo(Object o) {
+//        if(o instanceof Student){
+//            Student s=(Student)o;
+//            if(this.code<s.code) return -1;
+//            if (this.code>s.code) return 0;
+//        }throw new RuntimeException("只能和学生类行的对象比较大小");
+//    }
 }
