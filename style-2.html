@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>页面内连</title>
+		<!--
+			页面内联通过<style></style>标签再页面内定义一些命名的样式组，页面中的标签
+		-->
+		<style>
+			@import url("css/Test.css");
+			.bgl{
+				background-color: darkgoldenrod;
+			/*
+			 * 类选择器样式
+			 */
+/*			.text1{
+				color: dodgerblue;
+				font-family: "微软雅黑";
+				font-size: "30";
+			}
+			/*标签选择器样式也叫重写样式，这种样式名称要写成与标签一样的名字
+			 * 页面中该标签所有的样式都会变成我们定义的样式
+			 * */
+/*			.a{
+				color:chartreuse;
+				text-decoration: none;/*去除下划线*/
+				
+			}
+			/*
+			 * id选择器样式必须根据id名称修改对应的样式
+			 */
+/*			#st{
+				color: hotpink;
+			}*/
+			h1.text1{
+				font-style:italic ;
+			}
+			h3,.ttt{
+				font-family: "楷体";
+			}
+			.aaa h2{
+				color: silver;
+			}
+			a:hover{
+				color: red;
+				text-decoration: none;
+			}
+		</style>
+		<link href="css/Test.css" rel="stylesheet" />
+	</head>
+	<body>
+		<h1 class="text1">这里是准备应用类样式的内容</h1>
+		<a href="#"> 这是准备应用标签样式的内容</a><br />
+		<a href="#"> 这是准备应用标签样式的内容</a><br />
+		<a href="#"> 这是准备应用标签样式的内容</a><br />
+		
+		
+		<br />
+		<br />
+		<div id="st" >这里是准备样式选择器的内容</div><br />
+		<div id="st" >这里是准备样式选择器的内容</div><br />
+		<div id="st" >这里是准备样式选择器的内容</div><br />
+		<div id="st" >这里是准备样式选择器的内容</div>
+		
+		
+		
+		<b>应用重定义类选择器样式的内容</b><br />
+		<b>应用重定义类选择器样式的内容</b><br />
+		<b>应用重定义类选择器样式的内容</b><br />
+		<b>应用重定义类选择器样式的内容</b><br />
+		
+		<div class="aaa">
+			<h2>后代选择器</h2>
+			<div>
+				<h2>孙子也可以应用</h2>
+			</div>
+			<h4>不使用后代选择器</h4>
+		</div>
+		
+		<h1> 不应用样式</h1>
+		<h3> h3的应用样式</h3>
+		<h2 class="ttt"> h2的应用样式</h2>
+	</body>
+</html>
