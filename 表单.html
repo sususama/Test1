@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>表单</title>
+	</head>
+	<body>
+		<!--表单一定要以表单域<form></form>开始和结束
+			也就是写表单一般都有表单域
+		-->
+		<form enctype="multipart/form-data" method="post" action="day two.html">
+			<div>
+			<!--
+				<label></label>
+            	<input />
+            -->
+            <label for="name">姓名:</label>
+			<input id="name" name="name" type="text" value="文本" />
+			
+		
+		</div>
+		<div>
+			 <label for="pwd">密码:</label>
+			<input id="pwd" name="pwd" type="password" value="文本" />
+			
+		</div>
+		<div>
+			 <label for="sex">性别:</label>
+			<input id="sex" name="sex" type="radio" value="男"  checked=""/>男
+			<input id="sex" name="sex" type="radio" value="女" />女
+		</div>
+		<div>
+			 <label for="fav">爱好:</label>
+			<input id="fav" name="fav" type="checkbox" value="吹" />吹
+			<input id="fav" name="fav" type="checkbox" value="拉" />拉
+			<input id="fav" name="fav" type="checkbox" value="弹" />弹
+			<input id="fav" name="fav" type="checkbox" value="唱" />唱
+		</div>
+		<div>
+			 <label for="photo">上传：</label>
+			<input id="photo" name="photo" type="file"/>
+			
+			
+		</div>
+		<div>
+			<label for="year">
+				年份:
+			</label>
+			<select id="year" name="year">
+				<option>1990</option>
+				<option>1991</option>
+				<option>1992</option>
+				<option selected="true">1993</option>
+			</select>
+			<br />
+			<label for="yearl">
+				多选年份:
+			</label>
+			<select id="yearl" name="yearl" multiple="multiple">
+				<option>1990</option>
+				<option>1991</option>
+				<option>1992</option>
+				<option selected="selected">1993</option>
+		</div>
+		<br />
+		<!--
+			上传文件，使用 type=“file”的属性值，但是普通表只是上传字符数据
+			enctype="multipart/form-data"此时为多部分上传数据模式
+		-->
+		<input type="hidden" name="hidden" id="hidden" value="hidde" />
+		<input id="submit" name="submit" type="submit" value="发送" />
+		<input type="reset" name="reset" id="reset" value="重置" />
+		<input type="image" name="image" id="image" src="../imges/0.jpg" width="248" width="350" />
+		</form>
+	</body>
+</html>
