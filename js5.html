@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var o = { 
+				name: 'zs',
+				age:18,
+				sex: true,
+				no: 1001,
+				sayHi : function(){
+					console.log(this.name);
+				}
+			};
+			console.log(o.name+":"+o.age+":"+o.sex+":"+o.no);
+			o.sayHi();
+			
+			function Studnet(){
+				this.name= 'zs',
+				this.age=18,
+				this.sex= true,
+				this.no=1001,
+				this.sayHi=function(){ 
+					console.log(this.name);
+				}
+			}
+			var p= new Studnet();
+			console.log(p.name+":"+p.age+":"+p.sex+":"+p.no);
+			p.sayHi(); 
+			Studnet.prototype.code= 222;
+			
+			for(var tt in p){
+				console.log(tt); 
+				console.log(p[tt]);
+			}
+		</script> 
+	</body>
+</html>

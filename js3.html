@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			table{
+				border: 1px solid #1E90FF;
+				border-collapse: collapse;
+			}
+			td{
+				border: 1px solid #000000;
+			}
+		</style>
+	</head>
+	<body>
+		<script type="text/javascript">
+			document.write("<table cellpadding='0' width='200' height='200'>");
+			for(var i=0;i<8;i++){
+				document.write("<tr>");
+				if(i%2==0){
+						for(var j=0;j<8;j++){
+							if(j%2==0){
+							document.write("<td bgcolor='#000000'>")
+							document.write("</td>")
+						}else{
+							document.write("<td bgcolor='#FFFFFF'>")
+							document.write("</td>")
+						}
+					}
+				}else{for(var j=0;j<8;j++){
+							if(j%2==0){
+							document.write("<td bgcolor='#FFFFFF'>")
+							document.write("</td>")
+						}else{
+							document.write("<td bgcolor='#000000'>")
+							document.write("</td>")
+						}
+					}
+				}
+				document.write("</tr>")
+			}
+			document.write("</table>")
+		</script>
+	</body>
+</html>
