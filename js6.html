@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var d=new Date();
+			console.log(d.getDay()+":"+d.getFullYear()+":"+d.getHours());
+			
+			var a=new Array(20,32,34,12,54);
+			a.sort();
+			console.log(a);
+			a.reverse();
+			console.log(a);
+			
+			
+			//栈操作
+			var b=new Array();
+			b.push(234);
+			b.push(789);
+			b.push("231"); 
+			for (var i=0;i<b.length+2;i++) { 
+				console.log(b.pop());
+			}
+			
+			//队列操做
+			b.push(234);
+			b.push(789);
+			b.push("231");
+			for (var i=0;i<b.length+2;i++) { 
+				console.log(b.shift());
+			}
+			
+			//字符串
+			var str="Hello Worad !";
+			console.log(str.substring(6));
+			console.log(str.substring(6,11));
+			
+			
+		</script>
+	</body>
+</html>
