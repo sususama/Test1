@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			.aaa{
+				border: 3px solid #000000;
+			}
+		</style>
+	</head>
+	<body>
+		<img id="abc" src="../imges/0.jpg" class="aaa" width="240" />
+		<div id="ttt">Hello</div>
+		<script type="text/javascript">
+			var img= document.getElementById("abc"); 
+			img.src="../imges/9e07281a4553651_size92_w1024_h604.jpg";
+			/*
+			 *用下面方法取的的是一个集合，因为他的标签在文档中不是唯一的 
+			 * */
+			img=document.getElementsByTagName("img")[0];
+			img.src="../imges/0.jpg";
+			/*
+			 * 根据标签类型的属性得到标签的样式
+			 */
+			img=document.getElementsByClassName("aaa")[0];
+			img.src="../imges/1532347546470_feeds_215958400_0-0.png";
+			
+			/*
+			 * 获取标签内部文本内容
+			 */
+			var txt =document.getElementById("ttt");
+			console.log(txt.textContent);
+			txt.textContent="你好！";
+			//浏览器对象模型的访问方式
+			console.log(txt.innerHTML);
+			txt.innerHTML="<b>我把内容修改了</b>";
+			
+		</script>
+	</body>
+</html>

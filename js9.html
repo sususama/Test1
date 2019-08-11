@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<img src="../imges/0.jpg" width="240" />
+		<script type="text/javascript">
+			//文档对象模型  就是用树形结构访问对象
+			var t=document.documentElement;//根节点
+			console.log(t.nodeName);
+			console.log(t.nodeType);
+			//拿到子元素节点的集合
+			console.log(t.childNodes[0].nodeName);
+			//实例，将图中图片改变
+			var img=document.documentElement.childNodes[2].childNodes[1];
+			console.log(img.nodeName);
+			//attributes找到所有的属性
+			console.log(img.attributes.length);
+			img.attributes["src"].value ="../imges/9e07281a4553651_size92_w1024_h604.jpg";//文档对象模型
+			img.width="350";
+		</script>
+	</body>
+</html>
