@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style >
+			.a1{
+				background-color:#7FFF00 ;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="aaa" >hello</div>
+		<div >hello</div>
+		<div class="a1">hello</div>
+		<script type="text/javascript" src="jquery/jquery-3.4.1.slim.min.js"></script>
+		<script type="text/javascript">
+			
+		document.onload=function(){
+			
+		};
+			$.ready(
+				function(){
+					
+				}
+			);
+			$(
+				function(){
+					console.log("加载");
+				}
+			);
+			//2.通过字符串，或者标签的选择器字符串，返回标签对象的jquery包装对象
+//			var div=$("div.a1");
+//			div.css("background-color","#00BFFF");
+			
+			//3.把dom对象转换为jQuery对象
+			var div1 =document.getElementsByTagName("div");
+			var jqy =$(div1);
+			jqy.css("color","red");
+		</script>			
+	</body>
+</html>
