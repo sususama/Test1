@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			div>ul>li{
+				float: left;
+			}
+			a{
+				text-decoration: none;
+				color: black;
+				display: block;
+				height: 30px;
+				background-color: pink;
+				margin-left:10px ;
+				line-height: 30px;
+				padding: 0px 10px;
+				font-size:  none ;
+			}
+			div>li>ul{
+				display: none;
+			}
+		</style>
+		<script type="text/javascript" src="jquery/jquery-3.4.1.slim.min.js"></script>
+		<script type="text/javascript">
+			$(
+				function(){
+					$("a>ul>li").mouseover(
+						function(){
+							$(this).next("ul").show();
+						}
+					);
+					$("a>ul>li").mouseout(
+						function(){
+							$(this).next("ul").hide();
+						}
+					)
+				});
+			</script>
+	</head>
+	<body >
+		<div>
+			<ul>
+				<a href="#">一级标题</a>
+					<ul>
+						<li>二级标题</li>
+						<li>二级标题</li>
+						<li>二级标题</li>
+						<li>二级标题</li>
+					</ul>
+			</ul>
+			<ul>
+				<a href="#">一级标题</a>
+					<ul>
+						<li>二级标题</li>
+						<li>二级标题</li>
+						<li>二级标题</li>
+						<li>二级标题</li>
+					</ul>
+			</ul>
+			<ul>
+				<a href="#">一级标题</a>
+					<ul>
+						<li>二级标题</li>
+						<li>二级标题</li>
+						<li>二级标题</li>
+						<li>二级标题</li>
+					</ul>
+			</ul>
+		</div>
+	</body>
+</html>
