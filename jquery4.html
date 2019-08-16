@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="jquery/jquery-3.4.1.slim.min.js"></script>
+		<script type="text/javascript">
+			$(
+				
+				function(){
+					
+					var table=$("<table border='1'></table>");
+					var tr=$("<tr></tr>");
+					table.append(tr);
+					for (var i=0;i<4;i++) {
+						var th =$("<th>标题"+i+"</th>");
+						if(i==3){
+							th.html("操作");
+						}
+						tr.append(th);
+					}
+					for (var i=0;i<4;i++) {
+						var tr1 =$("<tr></tr>");
+						for (var j=0;j<4;j++) {
+							var td =$("<td>内容"+i+j+"</td>");
+							if (j==3) {
+								td.html("<a href='#'>删除</a>");
+							}
+							tr1.append(td);
+						}
+						table.append(tr1);
+					}
+					$("#tab").append(table);
+					
+					$("button").click(
+						function(){
+							var tr =$("<tr></tr>");
+							for (var j=0;j<4;j++) {
+								var td =$("<td>内容"+i+j+"</td>");
+								if(j==3){
+									var aa=$("<a href='#'>删除</a>");
+									aa.click(tt);
+									td.html(aa);
+								}
+								tr.append(td);
+								table.append(tr);
+							}
+						}
+					);
+					function tt(){
+					$(this).parent().parent().remove();
+				}
+					$("a").click(tt);
+				});
+			</script>
+	</head>
+	<body>
+		<button>添加行</button>
+		<div id="tab">
+			
+		</div>
+		<p>Hello World!</p>
+	</body>
+</html>
