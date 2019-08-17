@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="jquery/jquery-3.4.1.slim.min.js"></script>
+		<script type="text/javascript">
+			$(
+				function(){
+					function isNull(jquery){
+						var str =jquery.val();//取出input对象的value属性值
+						if(str==null || str=="" || str.length==0){
+							var megs= $("<span></span>");
+							megs.html(jquery.attr("name")+"不能为空");
+							megs.css("color","red");
+							jquery.after(megs);
+							return false;
+						}
+						return true;
+					}
+					function length(jquery,minlen,maxlen){
+						var str =jquery.val();
+						if(str.length>=minlen||str.length<=maxlen){
+							var mags=$("<span></span>");
+							megs.html(jquery.attr("name")+"属性值长度必须再"+minlen+"和"+maxlen+"之间");
+							megs.css("color","red");
+							jquery.after(megs);
+							return false;
+						}
+						return true;
+					}
+					
+					$("form").on("submit",
+						function(event){
+							if(!isNull($("input[name='name']"))||
+							!isNull($("input[name='pwd']"))||
+							!isNull($("input[name='confirm']"))||
+							!length($("input[name='name']"),6,14)||
+							!length($("input[name='pwd']"),6,14)||
+							!length($("input[name='confirm']"),6,14))){
+								$(this).off();
+							}
+						}
+					);
+				}
+			);
+		</script>
+	</head>
+	<body>
+		<form action="#" method="post">
+			姓名：<input name="name" type="text" /><br />
+			密码：<input name="pwd" type="password" /><br />
+			校验：<input name="confirm" type="password" /><br />
+			性别：<input value="m" type="radio" name="sex"/>男<input name="sex" value="w" type="radio" />女<br />
+			爱好：
+			<input name="checkbox" type="checkbox" />吹
+			<input name="checkbox" type="checkbox" />拉
+			<input name="checkbox" type="checkbox" />谈
+			<input name="checkbox" type="checkbox" />唱<br />
+			<input type="submit" name="j">
+			<input type="reset" name="c">
+		</form>
+	</body>
+</html>
