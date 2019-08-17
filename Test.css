@@ -1,0 +1,32 @@
+			.text1{
+				color: dodgerblue;
+				font-family: "微软雅黑";
+				font-size: "30";
+			}
+			/*标签选择器样式也叫重写样式，这种样式名称要写成与标签一样的名字
+			 * 页面中该标签所有的样式都会变成我们定义的样式
+			 * */
+			a{
+				color:chartreuse;
+				text-decoration: none;/*去除下划线*/
+				 
+			}
+			/*
+			 * id选择器样式必须根据id名称修改对应的样式
+			 */
+			#st{
+				color: hotpink;
+			}
+			b{
+				color: deepskyblue;
+			}
+			.abc{
+				background-color: red;
+			}
+			table{
+				border: 1px solid #000;
+				border-collapse: collapse;
+			}
+			td,th{
+				border: 1px solid #000;
+			}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var a=200;
+			console.log(a+20);
+			console.log(a.toString()+20);// toString（）方法
+			console.log(String(a)+20);// String 方法
+			
+			 var b="2234";
+			 console.log(b+200);
+			 console.log(Number(b) + 200);
+			 console.log(parseInt(b)+200);
+			 
+			 var b="hello";
+			 console.log(Number(b)*2);// 不能转换为数字类型，就会为空
+			 var c=20, d="20";
+			 console.log(c==d);// 只要内容一样就行
+			 console.log(c===d);// 全等，内容和类型都必须相等
+			 // 空字符串  0  false  null  undefined NaN 都为false
+			 //非空字符串  非0数字  true 任何对象 都为true
+			 
+		</script>
+	</body>
+</html>
