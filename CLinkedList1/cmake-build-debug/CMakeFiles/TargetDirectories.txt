@@ -1,0 +1,3 @@
+C:/workspaces/CLinkedList1/cmake-build-debug/CMakeFiles/CLinkedList1.dir
+C:/workspaces/CLinkedList1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/workspaces/CLinkedList1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
