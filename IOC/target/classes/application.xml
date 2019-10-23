@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="userServlet" class="edu.xatu.UserServlet" scope="prototype">
+    <property name="userService" ref="service"/>
+</bean>
+    <bean id="service" class="edu.xatu.UserService" autowire="byName">
+        <!--<property name="userDao" ref="userDao"/>-->
+    </bean>
+    <bean class="edu.xatu.UserDao" id="userDao">
+        <property name="driverClass" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc://mysql://localhost:3306/cms"/>
+        <property name="password" value="123456"/>
+        <property name="username" value="root"/>
+    </bean>
+    <bean id="user" class="edu.xatu.User">
+        <!--<constructor-arg value="李四" index="1"/>
+        <constructor-arg value="1111" index="0"/>
+        <constructor-arg value="20"/>
+        <constructor-arg value="M"/>-->
+        <property name="photos">
+            <list>
+                <value>1.jpg</value>
+                <value>2.jpg</value>
+                <value>3.jpg</value>
+                <value>4.jpg</value>
+            </list>
+        </property>
+        <property name="friends">
+            <array>
+                <value>zhangsan</value>
+                <value>lisi</value>
+                <value>wnagmazi</value>
+                <value>sunsa</value>
+            </array>
+        </property>
+    </bean>
+</beans>
