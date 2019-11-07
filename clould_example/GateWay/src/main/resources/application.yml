@@ -1,0 +1,21 @@
+zuul:
+  routes:
+    user-service: /user-service/**
+      path: /user-service/**
+#      url: http://localhost:8083
+      serviceId: user-service
+      strip-prefix: true
+    bbb:
+      path:
+        serviceId:
+server:
+  port: 10001
+spring:
+  application:
+    name: api-gateway
+eureka:
+  client:
+    registry-fetch-interval-seconds: 5 # 获取服务列表的周期：5s
+    service-url:
+      defaultZone: http://127.0.0.1:10000/eureka
+
