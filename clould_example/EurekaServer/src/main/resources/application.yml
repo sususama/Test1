@@ -1,0 +1,15 @@
+server:
+  port: 10000
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10001/eureka
+  instance:
+    lease-expiration-duration-in-seconds: 90
+    lease-renewal-interval-in-seconds: 30
+  server:
+    eviction-interval-timer-in-ms: 60000
+    enable-self-preservation: false
+spring:
+  application:
+    name: eureka_server
