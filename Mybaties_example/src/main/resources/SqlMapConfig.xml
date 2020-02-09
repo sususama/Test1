@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--配置类的别名-->
+    <typeAliases>
+        <!--配置单个类的别名-->
+<!--        <typeAlias type="edu.xatu.Channel" alias="Channel"/>-->
+        <package name="edu.xatu"/>
+    </typeAliases>
+    <!-- 配置 mybatis 的环境 -->
+    <environments default="mysql">
+        <!-- 配置 mysql 的环境 -->
+        <environment id="mysql">
+            <!-- 配置事务的类型 -->
+            <transactionManager type="JDBC"></transactionManager>
+            <!-- 配置连接数据库的信息：用的是数据源(连接池) -->
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/cms"/>
+                <property name="username" value="root"/>
+                <property name="password" value="123456"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <!-- 告知 mybatis 映射配置的位置 -->
+    <mappers>
+<!--        <mapper resource="edu/xatu/IChannel.xml"/>-->
+<!--        <mapper resource="edu/xatu/dao/ChannelDao.xml"/>-->
+<!--&lt;!&ndash;        <mapper resource="edu/xatu/dao/IChannelDao.xml"/>&ndash;&gt;-->
+<!--        <mapper class="edu.xatu.dao.IChannelDao"/>-->
+        <package name="edu.xatu"/>
+    </mappers>
+</configuration>
