@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.xatu.dao.ChannelDao">
+    <resultMap id="uu" type="channel">
+        <id property="cid" column="cid"/>
+        <result property="cname" column="cname"/>
+        <result property="description" column="description"/>
+        <collection property="articles" ofType="atricle">
+            <id property="aid" column="aid"/>
+            <result property="title" column="title"/>
+            <result property="content" column="content"/>
+            <result property="author" column="author"/>
+            <result property="resource" column="resource"/>
+
+        </collection>
+    </resultMap>
+    <select id="findAll" resultMap="uu">
+        select *
+        from t_channel c
+        left join t_article a
+        on c.cid=a.aid;
+    </select>
+    <insert id="addChannel" >
+        insert into t_channel(cid,cname,description) values(#{cid},#{cname},#{description});
+    </insert>
+
+    <delete id="delChannel">
+        delete from t_channel where cid=#{id}
+    </delete>
+    <select id="findByCid" resultType="Channel">
+        select * from t_channel where 1=1;
+        <if test="cid != null">
+            and cid=#{id}
+        </if>
+        <if test="cname != null">
+            and cname=#{cname}
+        </if>
+        <if test="description != null">
+            and description=#{description};
+        </if>
+    </select>
+
+</mapper>
