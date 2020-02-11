@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.xatu.dao.ArticleDao">
+    <select id="findArticleByTitlerOrAuthorOrSource" resultType="article">
+        select * from t_article
+        <where>
+        <if test="source != null">
+            and source=#{source}
+        </if>
+        <if test="titler != null">
+            and titler=#{titler}
+        </if>
+        <if test="author != null">
+            and author=#{author};
+        </if>
+        </where>
+    </select>
+
+
+    <select id="findByIds" resultType="article" parameterType="sqlVo">
+        select * from t_article
+        <where>
+            <if test="ids != null and ids.size>0">
+                <foreach collection="ids" open="aid  in ( " close=")" item="uid" separator=",">
+                    #{uid}
+                </foreach>
+            </if>
+        </where>aid in #{ids};
+    </select>
+
+
+    <!-- 定义对象到表的映射的关系-->
+    <resultMap id="u" type="user">
+        <id property="id" column="uid"></id>
+        <result property="name" column="uname"></result>
+        <result property="username" column="username"/>
+        <association property="card" javaType="card" >
+            <id property="cardid" column="c"></id>
+            <result property="cardno" column="cardno"></result>
+            <result property="uid" column="uid"/>
+        </association>
+    </resultMap>
+    <select id="findUserById" resultMap="u">
+        select *
+        from t_user u
+        join t_card c
+        on u.uid=c.uid
+        where u.uid=#{id};
+    </select>
+
+</mapper>
