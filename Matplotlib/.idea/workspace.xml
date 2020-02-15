@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8848e847-0a0d-46eb-b3dd-bdaf4ac4e34f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1X1K6wF3nGER3tSQ4Eutp3ifxPa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\workspaces\Matplotlib\character recognition" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.t1">
+    <configuration name="t" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Matplotlib" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/character recognition" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/character recognition/t.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="t1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Matplotlib" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/character recognition" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/character recognition/t1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="t7-Picture Crawl" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Matplotlib" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/actual" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/actual/t7-Picture Crawl.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="t8-Movie crawl" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Matplotlib" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/actual" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/actual/t8-Movie crawl.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Matplotlib" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.t1" />
+        <item itemvalue="Python.t" />
+        <item itemvalue="Python.t7-Picture Crawl" />
+        <item itemvalue="Python.t8-Movie crawl" />
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\10236\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8848e847-0a0d-46eb-b3dd-bdaf4ac4e34f" name="Default Changelist" comment="" />
+      <created>1580207988789</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580207988789</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="722" y="98" key="#Inspections" timestamp="1580618496044">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="722" y="98" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1580618496044" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580562828734">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1580562828734" />
+    <state x="669" y="147" key="FileChooserDialogImpl" timestamp="1580526283183">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="669" y="147" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1580526283183" />
+    <state width="1515" height="180" key="GridCell.Tab.0.bottom" timestamp="1580635026840">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="180" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580635026840" />
+    <state width="1515" height="180" key="GridCell.Tab.0.center" timestamp="1580635026840">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="180" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580635026840" />
+    <state width="1515" height="180" key="GridCell.Tab.0.left" timestamp="1580635026840">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="180" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580635026840" />
+    <state width="1515" height="180" key="GridCell.Tab.0.right" timestamp="1580635026840">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="180" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580635026840" />
+    <state width="1515" height="320" key="GridCell.Tab.1.bottom" timestamp="1580631324973">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="320" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580631324973" />
+    <state width="1515" height="320" key="GridCell.Tab.1.center" timestamp="1580631324973">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="320" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1580631324973" />
+    <state width="1515" height="320" key="GridCell.Tab.1.left" timestamp="1580631324973">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="320" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1580631324973" />
+    <state width="1515" height="320" key="GridCell.Tab.1.right" timestamp="1580631324973">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="320" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1580631324973" />
+    <state x="370" y="26" key="SettingsEditor" timestamp="1580526405477">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="370" y="26" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1580526405477" />
+  </component>
+</project>
