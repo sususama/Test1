@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.xatu.dao.ChannelDao">
+    <select id="findAll" resultType="Channel">
+        select * from t_channel
+    </select>
+    <insert id="addChannel" >
+        insert into t_channel(cid,cname,description) values(#{cid},#{cname},#{description});
+    </insert>
+
+    <delete id="delChannel">
+        delete from t_channel where cid=#{id}
+    </delete>
+    <select id="findByCid" resultType="Channel">
+        select * from t_channel where 1==1;
+        <if test="cid != null">
+            and cid=#{id}
+        </if>
+        <if test="cname != null">
+            and cname=#{cname}
+        </if>
+        <if test="description != null">
+            and description=#{description};
+        </if>
+    </select>
+</mapper>
