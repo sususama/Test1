@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>基础语法</title>
+    <script src="../js/vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <input type="text" v-model="salary" />
+
+    <ul>
+        <li v-for="(u,i) in users">
+            <span v-if = "i % 2 == 0" style="background-color: aqua">
+          {{i}} _ {{u.name}} : {{u.gender}} : {{u.age}}
+        </span>
+            <span v-else = "i % 2 == 1" style="background-color: red">
+          {{i}} _ {{u.name}} : {{u.gender}} : {{u.age}}
+        </span> |
+            <span v-show = "i % 2 == 1" style="background-color: red">
+          {{i}} _ {{u.name}} : {{u.gender}} : {{u.age}}
+        </span>
+        </li>
+    </ul>
+    {{caculate}}
+</div>
+<script>
+    const vm = new Vue({
+        el : "#app",
+        data : {
+            users:[
+                {name: '柳岩', gender:'女', age:'20'},
+                {name: '张三', gender:'男', age:'22'},
+                {name: '李四', gender:'女', age:'24'},
+                {name: '王五', gender:'男', age:'26'}
+            ],
+            birthday: 12316545643,
+        },
+        computed : {//计算属性
+            caculate(){
+                const d=new Date(this.birthday);
+                return d.getFullYear()+"年"+d.getMinutes()+"月"+d.getDate()+"日";
+            }
+        },
+        watch : {//监听器
+            salary(newVal,oldVal){
+                console.log(newVal+":"+oldVal);
+            }
+        }
+    })
+</script>
+</body>
+</html>

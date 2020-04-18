@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="21d11198-2b7d-4714-b529-f82edcae4478" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="137" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTTP Request" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1XQugVVkwBs990o8b3c1OOiQGzN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="inlay.hints" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspaces\newWeb\js" />
+      <recent name="C:\workspaces\newWeb" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\workspaces\newWeb\js" />
+      <recent name="C:\workspaces\newWeb\js基础" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.VueGrammar.html">
+    <configuration name="文件对象的查找元素API.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/newWeb/js基础/文件对象的查找元素API.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="VueGrammar.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/newWeb/Vue/VueGrammar.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="VueTest.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/newWeb/Vue/VueTest.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="在标签内添加文档的操作.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/newWeb/js基础/在标签内添加文档的操作.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="表单校验.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/newWeb/js基础/表单校验.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="事件.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/newWeb/事件.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.VueGrammar.html" />
+        <item itemvalue="JavaScript Debug.VueTest.html" />
+        <item itemvalue="JavaScript Debug.在标签内添加文档的操作.html" />
+        <item itemvalue="JavaScript Debug.文件对象的查找元素API.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="21d11198-2b7d-4714-b529-f82edcae4478" name="Default Changelist" comment="" />
+      <created>1580990750856</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580990750856</updated>
+      <workItem from="1580990753685" duration="730000" />
+      <workItem from="1581081241981" duration="1964000" />
+      <workItem from="1581144634033" duration="11203000" />
+      <workItem from="1581234593620" duration="4091000" />
+      <workItem from="1581306356103" duration="13309000" />
+      <workItem from="1581322957978" duration="20000" />
+      <workItem from="1581322991138" duration="6615000" />
+      <workItem from="1581398473632" duration="2619000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="993" y="236" key="FileChooserDialogImpl" timestamp="1581082887400">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="993" y="236" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581082887400" />
+    <state width="1515" height="187" key="GridCell.Tab.0.bottom" timestamp="1581401096901">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="187" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581401096901" />
+    <state width="1515" height="187" key="GridCell.Tab.0.center" timestamp="1581401096901">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="187" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581401096901" />
+    <state width="1515" height="187" key="GridCell.Tab.0.left" timestamp="1581401096900">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="187" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581401096900" />
+    <state width="1515" height="187" key="GridCell.Tab.0.right" timestamp="1581401096901">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="187" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581401096901" />
+    <state width="1515" height="187" key="GridCell.Tab.1.bottom" timestamp="1581401096902">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="187" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581401096902" />
+    <state width="1515" height="187" key="GridCell.Tab.1.center" timestamp="1581401096902">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="187" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1581401096902" />
+    <state width="1515" height="187" key="GridCell.Tab.1.left" timestamp="1581401096902">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="187" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1581401096902" />
+    <state width="1515" height="187" key="GridCell.Tab.1.right" timestamp="1581401096902">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="187" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1581401096902" />
+    <state width="709" height="189" key="GridCell.Tab.2.bottom" timestamp="1581162323248">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="709" height="189" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581162323248" />
+    <state width="709" height="189" key="GridCell.Tab.2.center" timestamp="1581162323248">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="709" height="189" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1581162323248" />
+    <state width="709" height="189" key="GridCell.Tab.2.left" timestamp="1581162323248">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="709" height="189" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1581162323248" />
+    <state width="709" height="189" key="GridCell.Tab.2.right" timestamp="1581162323248">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="709" height="189" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1581162323248" />
+    <state width="709" height="189" key="GridCell.Tab.3.bottom" timestamp="1581162323248">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="709" height="189" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581162323248" />
+    <state width="709" height="189" key="GridCell.Tab.3.center" timestamp="1581162323248">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="709" height="189" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1581162323248" />
+    <state width="709" height="189" key="GridCell.Tab.3.left" timestamp="1581162323248">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="709" height="189" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1581162323248" />
+    <state width="709" height="189" key="GridCell.Tab.3.right" timestamp="1581162323248">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="709" height="189" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1581162323248" />
+    <state x="120" y="83" key="SettingsEditor" timestamp="1581323264331">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="120" y="83" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581323264331" />
+    <state x="888" y="334" width="648" height="406" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1581082907648">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="888" y="334" width="648" height="406" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1536.824@0.0.1536.824" timestamp="1581082907648" />
+    <state x="614" y="193" key="run.anything.popup" timestamp="1581314723622">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="614" y="193" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1581314723622" />
+    <state x="970" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1581314726564">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="970" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1581314726564" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="newWeb" type="b2602c69:ProjectViewProjectNode" />
+        <item name="newWeb" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/newWeb$test_html.dat" NAME="test.html Coverage Results" MODIFIED="1581147409295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
