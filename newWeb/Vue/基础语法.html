@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>基础语法</title>
+</head>
+<body>
+    <script src="../js/jquery-3.4.1.slim.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        // var == let
+        // const a = 20;//const用来声明常量
+        function f (a, b) {
+            return a + b;
+        }
+        let p = (a, b)=> a + b ;
+        let p1 = {
+            name : "张三",
+            age : 20,
+            tt : function (a,b) {
+                return a + b;
+            }
+        };
+        let p2 = {
+            name : "李四",
+            age : 21,
+            t (a, b){
+                return a + b;
+            }
+        };
+        const hello = ({name, age}) => console.log(name,age);
+
+
+        let arr = ['2', '3', '4' ,'5', '6'];
+        //map就是从数组中每次取出一个参数，map()中可以定义一个函数
+        let arr2 = arr.map(a => parseInt(a));
+        //reduce和map类似，但是map是分散，reduce是聚合
+        arr2.reduce((a, b) => a + b);
+    </script>
+</body>
+</html>

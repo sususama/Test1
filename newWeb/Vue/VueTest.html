@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vue</title>
+</head>
+<body>
+<div id="app">
+    <input type="text"  v-model="age"/>
+    <button @click="add()">+</button>
+    <h1>{{name}} 你好! </h1>
+    <h1>今年 {{age}} 岁 </h1>
+    //这是响应式编程
+    <h1 v-text="name">李四<<span/>你好！</h1>
+    <h1 v-html="name">李四<<span/>你好！</h1>
+    <div style="border: red 1px dashed;bgcolor:red" onclick="console.log('div')">
+        <button @click = "console.log('button')">点我</button>
+        我的块
+    </div>
+</div>
+<script type="text/javascript" src="../js/vue.js"></script>
+<script type="text/javascript">
+    const app = new Vue({
+        el: "#app",
+        data : {
+            name : "",
+            age : 0
+        },
+        methods : {
+            add(){
+                this.age++;
+            }
+        },
+        created() {
+            this.name = "<b>RabbitSir</b>";
+            this.age = 20;
+        }
+    });
+</script>
+</body>
+</html>
