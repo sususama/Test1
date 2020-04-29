@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery</title>
+    <style>
+    <!--选择器 -->
+        div{
+            /*重定义标签选择器*/
+            background: #000;
+        }
+    </style>
+</head>
+<body>
+    <div>Hello!</div>
+    <script src="../js/jquery-3.4.1.slim.min.js"/>
+    <script type="text/javascript">
+        document.onload = function () {
+            // 这个事件在页面加载完成之后加载的
+        }
+        $.ready(function () {
+
+        });
+        $(function () {
+            //这两个都可以
+            console.log("页面加载");
+        });//可以自动加载onload函数
+        /*
+        * 2.通过标签选择器字符串，返回标签对象的的jQuery包装对线
+        * */
+        //在DOM对象中，我们使用
+        // var div = document.getElementsByTagName("div")[0];
+        //选择的是div的集合
+        var div = $("div");
+        div.css("","");//两个值，前面的是名称，后面是值
+        /*
+        * 3.第三种方法把DOM对象转换成jQuery对象
+        * */
+        var div1 = document.getElementsByTagName("div")[0];
+        var jqy = $(div1);
+    </script>
+</body>
+</html>
