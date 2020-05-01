@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery事件绑定</title>
+    <script type="text/javascript" src="../js/jquery-3.4.1.slim.min.js"/>
+    <script type="text/javascript">
+        
+        $(
+            function () {
+                //注册事件
+                $("button").bind("myEvent",
+                function (event) {
+                    console.log("自定义事件")
+                });
+                $("button").trigger("myEvent");
+            }
+        )
+    </script>
+</head>
+<body>
+    <button>点我</button>
+</body>
+</html>
