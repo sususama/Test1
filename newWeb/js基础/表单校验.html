@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单校验</title>
+    <script src="../js/jquery-3.4.1.slim.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        //绑定事件，第一个$相当于onload
+        $(function () {
+            //非空校验,因为要多处使用，所以写一个方法
+            function isNull(jquery){
+                let str = jquery.val();
+                if (str == null || str =="" || str.length==0) {
+                    let megs = $("<span></span>")
+                    megs.html(jquery.name+"属性不能为空");
+                    megs.css("color","red");
+                    jquery.after(megs);
+                    return false;
+                }
+                return true;
+            }
+            //长度校验
+            function length(jquery,max,min){
+                let str = jquery.val();
+                if (str.length>max||str.length<min){
+                    let megs = $("<span></span>")
+                    megs.html("长度不能大于"+max+"不能小于"+min);
+                    jquery.after(megs);
+                    return false;
+                }
+                return true;
+            }
+            //邮箱校验
+            function email(jquery){
+                let str = jquery.val();
+                let regex = /^\w*@\w*\.\w*$/;
+                return regex.test(str);
+            }
+            //找到表单的标签，并绑定提交事件submit
+            $("form").submit(
+                function (event) {
+                    if (isNull($("input[name='name']"))&&
+                        isNull($("input[name='password']"))&&
+                        isNull($("input[name='confirm']"))&&
+                        isNull($("input[name='sex']"))&&
+                        isNull($("input[name='hob']"))&&
+                        length($("input[name='name']" ,12,1)&&
+                        length($("input[name='password']" ,16,8))&&
+                        email($("input[name='email']")))
+                    )
+                        event.preventDefault();
+
+                }
+            );
+        });
+    </script>
+</head>
+<body>
+    <form action="#" method="post">
+        Name(姓名):<input name="name" type="text"/><br/>
+        Password(密码):<input name="password" type="password"/><br/>
+        Confirm(校验):<input name="confirm" type="password"/><br/>
+        Email(邮箱):<input name="email" type="email"/><br/>
+        Gender(性别):<input type="radio" value="m" name="sex"/>Man(男)<input type="radio" value="w" name="sex"/>Women(女)<br/>
+        Hobby(爱好):<input type="checkbox"  name="hob"/>吹
+                    <input type="checkbox" name="hob"/>拉
+                    <input type="checkbox" name="hob"/>弹
+                    <input type="checkbox" name="hob"/>唱<br/>
+        <input type="submit" />
+        <input type="reset" />
+    </form>
+</body>
+</html>
