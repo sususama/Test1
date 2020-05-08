@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>文件对象的查找元素API</title>
+    <style>
+        .aaa{
+            border: 6px solid #000000;
+        }
+    </style>
+</head>
+<body>
+    <img class="aaa" src="../images/0.jpg" id="abc" height="200"/>
+    <script type="text/javascript">
+        //根据id访问元素节点
+        // var img = document.getElementById("abc");
+        // console.log(img.nodeName);
+        //我们可以直接通过img.属性名来修改属性，例子如下
+        // img.src = "images/1.jpg";
+        /*
+        * 下面的是根据签名访问元素，得到的是集合
+        * */
+        img = document.getElementsByTagName("img")[0];
+        //根据标签名字，访问元素数组
+        console.log(img)
+        img.src = "images/3.jpg";
+        /*
+        * 根据class样式类属性得到标签的集合
+        * */
+        img = document.getElementsByClassName("aaa")[0];
+        img.src = "images/4.jpg"
+    </script>
+</body>
+</html>
