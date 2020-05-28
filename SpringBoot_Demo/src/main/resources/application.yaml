@@ -1,0 +1,39 @@
+#spring:
+#  datasource :
+#    driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://127.0.0.1:3306/cms
+#    username: root
+#    password: 123456
+
+#  mvc:
+#    servlet:
+#      path: \
+#server:
+#    port: 8081
+#jdbc:
+#  driverClassName : com.mysql.jdbc.Driver
+#  url : jdbc:mysql://127.0.0.1:3306/cms
+#  username: root
+#  password: 123456
+#logging:
+#  level:
+#    edu.xatu: info
+#spring:
+#  datasource:
+#    hikari:
+#      data-source-class-name:
+mybatis:
+  type-aliases-package: edu.xatu.entity #别名
+#  mapper-locations: edu/xatu/dao/*.xml #映射文件 一般不用配置
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306
+    username: root
+    password: 123456
+#    hikari:
+#      data-source-class-name: com.alibaba.druid.pool.DruidDataSource
+
+logging:
+  level:
+    edu.xalead: debug
